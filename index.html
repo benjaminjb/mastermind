@@ -3,28 +3,36 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Mastermind!</title>
-	<link rel="stylesheet" href="">
+        <link rel="stylesheet" href="mastermind.css" />
 </head>
 <body>
 
-	<div class="gameView">
+  <div class="pallette">
+    <div class="swatch orange"></div>
+    <div class="swatch eggplant"></div>
+    <div class="swatch salmon"></div>
+    <div class="swatch lime"></div>
+    <div class="swatch turquoise"></div>
+    <div class="swatch canary"></div>
+  </div>
+  <div class="guess_button"></div>
+    <div class="gameView">
+      <div class="gameboard">
+        <div class="row active">
+          <div class="empty"></div>
+          <div class="empty"></div>
+          <div class="empty"></div>
+          <div class="empty"></div>
+        </div>
+      </div>
+      <div class="results"></div>
+      </div>
 
-	<div class="result_box">
-		
-	</div>
-
-	<div class="gameboard"></div>
-
-	<div class="pallette">
-		
-	</div>
-
-	</div>
-
-<script type="text/javascript" src="mastermind.js"></script>
-<script type="text/javascript" src="experiments.js"></script>
-<script type="text/javascript" src="view_control.js"></script>
-<script></script>
+    </div>
+  <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
+  <script type="text/javascript" src="mastermind.js"></script>
+  <script type="text/javascript" src="experiments.js"></script>
+  <script type="text/javascript" src="view_control.js"></script>
 </body>
 </html>
 

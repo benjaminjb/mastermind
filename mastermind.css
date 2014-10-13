@@ -1,0 +1,27 @@
+/* color palette stuff */
+.swatch {
+  height: 50px;
+  width: 50px;
+  background-color: #000;
+  float: left;
+}
+
+.pallette .row {
+  clear: both;
+}
+
+.orange { background-color: #F1602F; }
+.eggplant { background-color: #311446; }
+.salmon { background-color: #E52B5F; }
+.lime { background-color: #7fde31; }
+.turquoise { background-color: #3bceeb; }
+.canary { background-color: #ffce49; }
+
+.row > div {
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  background-color: black;
+  margin: 10px;
+  float: left;
+}
